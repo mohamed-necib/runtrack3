@@ -9,13 +9,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     window.addEventListener("scroll", () => {
         let scrollVert = window.scrollY;
-        /* console.log(scrollY); */
+        let inner = window.innerHeight;
         let height = body.offsetHeight;
-        let percentage = scrollVert / height * 125.1;
-        console.log(percentage);
+        let percentage = (scrollVert/(height-inner)) * 100;
+        /* console.log(percentage); */ 
         footer.style.width = percentage + "%";
     });
-
-
-
 });
