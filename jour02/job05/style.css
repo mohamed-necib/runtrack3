@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 4096px;
+}
+
+footer{
+  width: 100%;
+  height: 50px;
+  background-color: indianred;
+  position: fixed;
+  bottom: 0;
+}
