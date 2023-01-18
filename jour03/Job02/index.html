@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+      integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+    <title>Job02</title>
+  </head>
+  <body>
+    <button id="btn-shuffle">Mélanger</button>
+    <div class="puzzle-container" style="display: flex; background-color: greenyellow; height: 400px;"></div>
+    <div class="puzzle-shuffle" style="display: flex; justify-content: center;">
+      <div id="part-1" class="puzzle">
+        <img src="img/arc1.png" alt="puzzle-1" />
+      </div>
+      <div id="part-2" class="puzzle">
+        <img src="img/arc2.png" alt="puzzle-1" />
+      </div>
+      <div id="part-3" class="puzzle">
+        <img src="img/arc3.png" alt="puzzle-1" />
+      </div>
+      <div id="part-4" class="puzzle">
+        <img src="img/arc4.png" alt="puzzle-1" />
+      </div>
+      <div id="part-5" class="puzzle">
+        <img src="img/arc5.png" alt="puzzle-1" />
+      </div>
+      <div id="part-6" class="puzzle">
+        <img src="img/arc6.png" alt="puzzle-1" />
+      </div>
+    </div>
+  </body>
+</html>
